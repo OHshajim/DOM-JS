@@ -8,37 +8,103 @@
 </head>
 
 <body>
-    <h1 title="you are fool">i am new in js and DOM</h1>
-    <ul>
+    <div>
 
-        <!-- inline event -1 -->
-        <li><button onclick="console.log(7);">learn more</button></li>
-        <li> <button onclick="document.body.style.backgroundColor ='tomato' ">Make tomato</button></li>
+        <h5>practice nad learn </h5>
+        <h1 title="trying... to learning js DOM ">if you click this button something will happened . you will check
+            terminal
+            for for 1st button </h1>
+        <ul>
+            <!-- Event Systems  -->
 
-        <!-- system -2 //important-->
-        <li> <button onclick="makeRed()">Make red</button></li>
+            <!-- inline event -1 -->
+            <li><button onclick="console.log(7);">learn more</button></li>
+            <li> <button onclick="document.body.style.backgroundColor ='tomato' ">Make tomato</button></li>
 
-        <!-- system -3 -->
-        <li> <button id="make-purple">Make Purple</button></li>
+            <!-- system -2 //important-->
+            <li> <button onclick="makeRed()">Make red</button></li>
 
-        <!-- system -3.2 -->
-        <li> <button id="make-pink">Make pink</button></li>
+            <!-- system -3 -->
+            <li> <button id="make-purple">Make Purple</button></li>
 
-        <!-- system -4 -->
-        <li><button id="make-magenta">Make magenta</button></li>
+            <!-- system -3.2 -->
+            <li> <button id="make-pink">Make pink</button></li>
 
-        <!-- system -4.2 -->
-        <li><button id="make-aqua">Make aqua</button></li>
+            <!-- system -4 -->
+            <li><button id="make-magenta">Make magenta</button></li>
 
-        <!-- system -4.3 //important -->
-        <li><button id="make-teal">Make teal</button></li>
+            <!-- system -4.2 -->
+            <li><button id="make-aqua">Make aqua</button></li>
 
-    </ul>
+            <!-- system -4.3 //important -->
+            <li><button id="make-teal">Make teal</button></li>
 
+        </ul>
+    </div>
+
+    <div>
+
+        <!-- some works by using Event  -->
+
+        <h1>Final DOM Event Handlers</h1>
+        <br>
+        <h3 id="display">i will change for your comment</h3>
+        <input type="text" id="input">
+        <button id="comment">Comment</button>
+
+        <br><br>
+
+        <h3 id="text">if you click here i will change </h3>
+        <button onclick="Handler()">You</button>
+        <button id="btn">Her</button>
+
+    </div>
+
+    <!-- comment box -->
+    <div>
+        <h1>please add your comment </h1>
+        <div id="add">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, sapiente! Eveniet vitae, soluta
+                tenetur, quod labore exercitationem illum dignissimos inventore cupiditate quae quas adipisci eum
+                voluptas nam nesciunt qui distinctio!</p>
+
+            <p>Doloribus neque vitae sit maxime tenetur aliquam nisi corrupti rerum nulla, culpa cumque reiciendis
+                commodi facere officiis eligendi temporibus. Voluptate odit accusamus totam beatae quae voluptatibus!
+                Optio quam dignissimos rerum.</p>
+
+            <p>Laudantium quos nisi repudiandae, eveniet sint vel neque? Veniam dicta tenetur dolor possimus,
+                consectetur, sapiente, suscipit aut praesentium ab consequatur quia? Aperiam laudantium quam ipsa,
+                voluptate facere necessitatibus asperiores autem.</p>
+        </div>
+        <div>
+            <textarea name="" id="new-comment" cols="80" rows="5"></textarea>
+            <button id="post">Post</button>
+        </div>
+    </div> <br><br><br>
+
+    <!-- git delete system -->
+    <div>
+        <p id="git-text">My secrete some information's </p>
+        <input id="delete-confirm" type="text" placeholder="please type delete">
+        <button id="delete" disabled>delete</button>
+    </div>
+    <br><br><br>
+
+    <!-- Event Delegate  -->
+    <div>
+        <p>Practice Event Delegate and explore that </p>
+        <ul id="li-container">
+            <li class="item">i</li>
+            <li class="item">me</li>
+            <li class="item">myself</li>
+            <li class="item">my life</li>
+            <li class="item">my career</li>
+        </ul>
+        <button id="li-btn">add list</button>
+    </div>
     <script src="./DOM-js/event.js"></script>
-    <script>
- 
-    </script>
+    <script src="./DOM-js/PracticeEvent.js"></script>
+    <script src="./DOM-js/delegate.js"></script>
 </body>
 
 </html>
